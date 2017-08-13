@@ -3,4 +3,4 @@ An experiment to detect the difference between benign and malignant skin lesions
 
 All images were retrieved from the ISIC Archieve found here: https://isic-archive.com
 
-
+[Imgur](http://i.imgur.com/izUCxkH.png)
