@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="103" id="KGk-i7-Jjw" customClass="TableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="103"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="102.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Skin clinic" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wew-mu-LzA">
+                        <rect key="frame" x="19" y="8" width="222" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="qG0-6g-vaG"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2IT-4U-oXs">
+                        <rect key="frame" x="19" y="37" width="222" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="XxH-8b-QH3"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                        <color key="textColor" white="0.5" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cancerFound" translatesAutoresizingMaskIntoConstraints="NO" id="wWZ-bi-AgU">
+                        <rect key="frame" x="249" y="8" width="63" height="67"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="63" id="3P1-P9-P2z"/>
+                            <constraint firstAttribute="height" constant="67" id="HtU-UU-cNg"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FiveStar" translatesAutoresizingMaskIntoConstraints="NO" id="wys-ga-tP5">
+                        <rect key="frame" x="9" y="56" width="146" height="34"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="34" id="aUM-VA-TMd"/>
+                            <constraint firstAttribute="width" constant="146" id="ip4-nP-H05"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Wew-mu-LzA" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="7lX-Ao-1qS"/>
+                    <constraint firstAttribute="trailing" secondItem="wWZ-bi-AgU" secondAttribute="trailing" constant="8" id="DH9-Dp-wJg"/>
+                    <constraint firstItem="wWZ-bi-AgU" firstAttribute="leading" secondItem="Wew-mu-LzA" secondAttribute="trailing" constant="8" id="OS8-Ym-Ug4"/>
+                    <constraint firstItem="2IT-4U-oXs" firstAttribute="top" secondItem="Wew-mu-LzA" secondAttribute="bottom" constant="8" id="SEg-ZB-ZNu"/>
+                    <constraint firstItem="wys-ga-tP5" firstAttribute="top" secondItem="2IT-4U-oXs" secondAttribute="bottom" constant="3" id="UrR-MN-WPK"/>
+                    <constraint firstItem="wWZ-bi-AgU" firstAttribute="leading" secondItem="2IT-4U-oXs" secondAttribute="trailing" constant="8" id="Zbo-9m-P4g"/>
+                    <constraint firstItem="Wew-mu-LzA" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="11" id="fmV-sF-4pl"/>
+                    <constraint firstItem="wys-ga-tP5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="9" id="k9J-HZ-OvQ"/>
+                    <constraint firstItem="2IT-4U-oXs" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="11" id="wDg-zy-w75"/>
+                    <constraint firstItem="wWZ-bi-AgU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="zVc-IC-ltN"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imageView" destination="wWZ-bi-AgU" id="8Fu-0F-7Jo"/>
+                <outlet property="mainLabel" destination="Wew-mu-LzA" id="AbU-ll-WMH"/>
+                <outlet property="previewImageView" destination="wWZ-bi-AgU" id="BgY-xy-uvS"/>
+                <outlet property="smallerLabel" destination="2IT-4U-oXs" id="QNt-hk-a1B"/>
+            </connections>
+            <point key="canvasLocation" x="33" y="83.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="FiveStar" width="167" height="38"/>
+        <image name="cancerFound" width="63" height="67"/>
+    </resources>
+</document>
